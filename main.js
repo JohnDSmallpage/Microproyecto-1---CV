@@ -1,3 +1,5 @@
+//CARRUSEL
+
 const array_img= [
     "./imagenes/pexels-miguel-á-padriñán-1591061.jpg",
     "./imagenes/pexels-pixabay-270348.jpg",
