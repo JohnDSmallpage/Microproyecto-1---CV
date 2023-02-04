@@ -19,3 +19,7 @@ const tiempo= ()=> {
 
 window.addEventListener("load", tiempo());
 
+//SKILLS
+
+
+
