@@ -61,7 +61,10 @@ button.addEventListener("click", ()=>{
     }
 
 
-    alert("Su solicitud ha sido enviada");
+    alert(`Nombre completo: ${nombre.value}\n
+Email: ${email.value}\n
+Mensaje: ${mensaje.value}\n
+Su solicitud ha sido enviada`);
 
 } );
 
