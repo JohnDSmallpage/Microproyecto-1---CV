@@ -102,6 +102,20 @@ skills_object= JSON.parse(skills_json);
 insertar_html(skills_object);
 
 
+//NAVBAR EFFECT
+
+window.addEventListener("scroll", () => {
+    let navbar= document.getElementById("change");
+    if(window.scrollY>0){
+        navbar.style.backgroundColor="white";
+        navbar.style.opacity="0.7"
+    }
+    else{
+        navbar.style.backgroundColor="transparent";
+        navbar.style.opacity="1"
+    }
+})
+
 
 
 
