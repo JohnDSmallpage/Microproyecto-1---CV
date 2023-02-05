@@ -371,6 +371,75 @@ hr{
     text-align: center;
 }
 
+/*Celular*/
+@media (min-width: 370px) {
+
+    /*NAV*/
+    #nav-name{
+        width: 80px;
+        height: 30px;
+    
+    }
+    .container-nav ul li{
+        font-size: 13px;
+        
+    }
+
+    /*SKILLS*/
+    .skills-container{
+        width: 90%;
+       
+    }
+
+
+    #skill-html{
+        font-size: 15px;
+    }
+    
+    #skill-css{
+        font-size: 15px;
+    }
+    
+    #skill-js{
+        font-size: 15px;
+    }
+
+    /*EXPERIENCE*/
+
+    .projects{
+        width: 90%;
+    }
+
+    .projects h4{
+        font-size: 8px;
+    }
+
+    .imagen-proyecto{
+        width: 105px;
+        height: 120px;
+    }
+
+    /*ABOUT ME*/
+    .container-about{
+        width: 98%;
+    }
+
+    #titulo-about{
+        width: 95%;
+    }
+
+    #titulo-exp{
+        width: 95%;
+    }
+
+    /* HERO*/
+
+    .hero img{
+        width: 100%;
+        height: 420px;
+    }
+
+}
 
 
 /*Tablet*/
