@@ -93,6 +93,8 @@ hr{
 }
 
 
+
+
 /*ABOUT ME*/
 
 #about-id{
@@ -102,7 +104,15 @@ hr{
     align-items: center;
     margin-top: 30px;
     margin-bottom: 20px;
+
     
+    
+}
+
+#titulo-about{
+    width: 100%;
+    background-color: white;
+    margin: 12px;
 }
 
 
@@ -115,12 +125,192 @@ hr{
 #about-id h4, h3{
     background-color: white;
     margin: 12px;
+    text-align: center;
 }
 
 #about-id li{
     font-weight: bold ;
     text-shadow: white 1px 1px;
+    text-align: center;
 }
+
+#about-id ul{
+    line-height: 30px;
+    list-style: none;
+}
+
+/*CONTACT ME*/
+
+#contactme-id{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+#contactme-id h3{
+    width: 100%;
+    background-color: white;
+    margin: 12px;
+}
+
+
+#contactme-id h4{
+    background-color: white;
+    margin: 12px;
+}
+
+#contactme-id button{
+    width: 13%;
+    background-color: orange;
+    margin: 10px;
+    opacity: 0.8;
+}
+
+#contactme-id button:hover{
+    
+    background-color: rgb(32, 232, 129);
+    opacity: 0.8;
+}
+
+.input-text{
+    background: #f8f3f3;
+    border-radius: 10px;
+    width: 70%;
+    height: 25px;
+    padding-left: 15px;
+    color: black
+}
+
+
+.redes-sociales{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.red-social{
+    width: 45px;
+    height: 45px;
+}
+
+/*EXPERIENCE*/
+
+.imagen-proyecto{
+    width: 150px;
+    height: 150px;
+}
+
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    
+}
+
+
+#titulo-projects{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bold ;
+    text-shadow: white 1px 1px;
+    background-color: azure;
+    width: 100%;
+}
+
+.projects h4{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold ;
+    text-shadow: white 1px 1px;
+}
+
+#proyecto-1, #proyecto-2, #proyecto-3{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    line-height: 20px;
+    
+}
+
+.imagen-proyecto{
+    margin-top: 10px;
+}
+
+.projects a{
+    text-decoration:underline;
+}
+
+/*SKILLS*/
+
+.skills-container{
+    width: 100%;
+    margin: auto;
+    border: 5px solid rgb(221, 133, 133);
+    background-color: rgb(243, 235, 235);
+}
+
+.skill{
+    width: 100%;
+    background-color: #ddd;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#skill-html{
+    background-color: rgb(240, 127, 21);
+    animation: barra-html 2s forwards;
+}
+
+#skill-css{
+    background-color: rgb(20, 208, 222);
+    animation: barra-css 2s forwards;
+}
+
+#skill-js{
+    background-color: rgb(241, 225, 46);
+    animation: barra-js 2s forwards;
+}
+
+@keyframes barra-html {
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+
+@keyframes barra-css {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+
+@keyframes barra-js {
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
