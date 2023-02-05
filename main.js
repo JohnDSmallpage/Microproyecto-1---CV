@@ -68,12 +68,11 @@ button.addEventListener("click", ()=>{
 
 //SKILLS
 2
-const skills_json= '{"html":"80%", "css":"60%", "js": "70%"}';
+const skills_json= '{"html":"80/100", "css":"60/100", "js": "70/100"}';
 
 function insertar_html(skills_object){
     let skills= document.getElementById("skills-id");
-    skills.innerHTML+= 
-    ` <div class="skills-container" id="skills-injected">
+    skills.innerHTML+= ` <div class="skills-container" id="skills-injected">
     <p>HTML</p>
         <div class="skill">
             <div id="skill-html"></div>
@@ -86,7 +85,7 @@ function insertar_html(skills_object){
         <div class="skill">
             <div id="skill-js"></div>
         </div>
-    </div>`
+</div>`
 
     let html_var= document.getElementById("skill-html");
     let css_var= document.getElementById("skill-css");
@@ -102,20 +101,6 @@ function insertar_html(skills_object){
 skills_object= JSON.parse(skills_json);
 insertar_html(skills_object);
 
-
-//NAVBAR EFFECT
-
-window.addEventListener("scroll", () => {
-    let navbar= document.getElementById("change");
-    if(window.scrollY>0){
-        navbar.style.backgroundColor="white";
-        navbar.style.opacity="0.7"
-    }
-    else{
-        navbar.style.backgroundColor="transparent";
-        navbar.style.opacity="1"
-    }
-})
 
 
 

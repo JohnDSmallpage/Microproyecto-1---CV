@@ -288,11 +288,15 @@ hr{
 /*SKILLS*/
 
 .skills-container{
-    width: 100%;
+    width: 90%;
     margin: auto;
     border: 5px solid rgb(221, 133, 133);
     background-color: rgb(243, 235, 235);
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 #titulo-skills{
@@ -302,45 +306,64 @@ hr{
 }
 
 
+.skills-container p{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold ;
+    text-shadow: white 1px 1px;
+    text-align: center;
+}
+
 .skill{
-    width: 100%;
+    width: 40%;
     background-color: #ddd;
     padding: 10px;
     color: white;
     font-weight: bold;
     margin-bottom: 10px;
-    text-align: right;
+    text-align: center;
+    font-size: 2rem;
+    border: 5px inset rgb(254, 152, 18);
 }
 
+
 #skill-html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(240, 127, 21);
-    animation: barra-html 2s forwards;
+    height: 100px;
+    letter-spacing: .15rem;
+    font-weight: bold ;
+    text-shadow: white 1px 1px;
+    text-align: center;
 }
 
 #skill-css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
     background-color: rgb(20, 208, 222);
-    animation: barra-css 2s forwards;
+    letter-spacing: .15rem;
+    font-weight: bold ;
+    text-shadow: white 1px 1px;
+    text-align: center;
 }
 
 #skill-js{
     background-color: rgb(241, 225, 46);
-    animation: barra-js 2s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    letter-spacing: .15rem;
+    font-weight: bold ;
+    text-shadow: white 1px 1px;
+    text-align: center;
 }
 
-@keyframes barra-html {
-    0%{width: 0;}
-    100%{width: 80%;}
-}
-
-@keyframes barra-css {
-    0%{width: 0;}
-    100%{width: 60%;}
-}
-
-@keyframes barra-js {
-    0%{width: 0;}
-    100%{width: 70%;}
-}
 
 
 
